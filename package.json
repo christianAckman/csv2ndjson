@@ -1,7 +1,7 @@
 {
   "name": "csv2ndjson",
   "version": "1.0.0",
-  "description": "Convert a CSV file to NDJSON format",
+  "description": "Convert a CSV file to Elasticsearch Bulk or NDJSON format",
   "main": "index.js",
   "repository": {
     "type": "git",
