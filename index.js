@@ -40,14 +40,14 @@ function csv2ndjson(_csv, _json){
     .fromFile(_csv)
     .on('json', (json) =>{
 
-        fs.appendFile(_json, '\n' + JSON.stringify(json) + '\n', function (err) {
+        fs.appendFile(_json, JSON.stringify(json) + '\n', function (err) {
             if (err) {
                 throw err;
             }
         })
     })
     .on('done', (err) =>{
-        
+
         if(err){
             throw err;
         }
