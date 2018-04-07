@@ -1,0 +1,25 @@
+{
+  "name": "csv2ndjson",
+  "version": "1.0.0",
+  "description": "Convert a CSV file to NDJSON format",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/christianAckman/csv2ndjson.git"
+  },
+  "keywords": [
+    "convert",
+    "csv",
+    "ndjson",
+    "json",
+    "elastic",
+    "elasticsearch",
+    "bulk"
+  ],
+  "author":{
+    "name": "Christian Ackman",
+    "email": "ackmanChristian@gmail.com",
+    "url": "http://christianAckman.com"
+  },
+  "license": "MIT"
+}
