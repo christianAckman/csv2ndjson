@@ -16,10 +16,9 @@
     "elasticsearch",
     "bulk"
   ],
-  "author":{
-    "name": "Christian Ackman",
-    "email": "ackmanChristian@gmail.com",
-    "url": "http://christianAckman.com"
-  },
-  "license": "MIT"
+  "author": "Christian Ackman <ackmanChristian@gmail.com> (http://christianAckman.com)",
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson": "^1.1.9"
+  }
 }
