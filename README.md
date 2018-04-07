@@ -14,9 +14,10 @@ todo
 ## Examples:
 
 index: 'employees'
+
 type: 'people'
 
-data.csv:
+**data.csv**
 
 | FirstName | LastName | Age | DOB        | Organization  | 
 |-----------|----------|-----|------------|---------------| 
@@ -28,7 +29,7 @@ data.csv:
 | Edward    | Murphy   | 57  | 4/3/1961   | Adobe         | 
 
 
-Elastic Bulk:
+**Elastic Bulk:**
 ```
 { "index" : { "_index" : "employees", "_type" : "people" } }
 {"FirstName":"Willard","LastName":"Smith","Age":"49","DOB":"9/25/1968","Organization":"Salesforce"}
@@ -45,7 +46,7 @@ Elastic Bulk:
 
 ```
 
-NDJSON:
+**NDJSON:**
 ```
 {"FirstName":"Willard","LastName":"Smith","Age":"49","DOB":"9/25/1968","Organization":"Salesforce"}
 {"FirstName":"Dwayne","LastName":"Johnson","Age":"45","DOB":"5/2/1972","Organization":"Elasticsearch"}
@@ -58,5 +59,6 @@ NDJSON:
 ## Todo:
 
 - Add header support
-- Testing
+- Overwrite output file
+- Tests
 - Add usage
